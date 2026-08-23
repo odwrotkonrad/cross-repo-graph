@@ -3,11 +3,29 @@
 #   cross-repo/automation before the commit is pushed, which is where the code already lives.
 include:
   - project: konradodwrot/cross-repo/misc
-    ref: $MISC_REF
+    ref: $GRP_KO_VAR_MISC_REF
     file: shared/ci/templates/EmitEvents.gitlab-ci.yml
+
+#[why] default branch only: the sole job here announces merged content, so an MR pipeline would be
+#   empty and GitLab refuses to create one. "Pipeline creation failed" on an MR is expected for this
+#   repo, not a misconfiguration: everything that validates these files runs in cross-repo/automation
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
 stages: [notify]
 
+default:
+  tags:
+    - gke-linux-amd64-small
+
 variables:
+  ARTIFACT_REGISTRY: $GRP_KO_VAR_ARTIFACT_REGISTRY
+  OCI_IMAGES_CI_LINUX_REF: $GRP_KO_VAR_OCI_IMAGES_CI_LINUX_REF
+  MISC_REF: $GRP_KO_VAR_MISC_REF
   CI_IMAGE: $ARTIFACT_REGISTRY/ci-linux:$OCI_IMAGES_CI_LINUX_REF
+
+emit-events:
+  extends: .emit-events
+  stage: notify
 ##[<] 🤖🤖
