@@ -1,0 +1,13 @@
+##[>] 🤖🤖
+#[why] data-only repo: one terminal job and nothing else. Any check on these files runs in
+#   cross-repo/automation before the commit is pushed, which is where the code already lives.
+include:
+  - project: konradodwrot/cross-repo/misc
+    ref: $MISC_REF
+    file: shared/ci/templates/EmitEvents.gitlab-ci.yml
+
+stages: [notify]
+
+variables:
+  CI_IMAGE: $ARTIFACT_REGISTRY/ci-linux:$OCI_IMAGES_CI_LINUX_REF
+##[<] 🤖🤖
