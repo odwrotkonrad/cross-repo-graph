@@ -12,9 +12,6 @@ artifacts:
   gitlab.com/konradodwrot/cross-repo/automation:
     type: gitRepository
     versionEnvVar: AUTOMATION_REF
-  gitlab.com/konradodwrot/cross-repo/infra/iac:
-    type: gitRepository
-    versionEnvVar: IAC_REF
   gitlab.com/konradodwrot/cross-repo/misc:
     type: gitRepository
     versionEnvVar: MISC_REF
@@ -48,6 +45,9 @@ artifacts:
   gitlab.com/konradodwrot/resume-md-pdf:
     type: gitRepository
     versionEnvVar: RESUME_MD_PDF_REF
+  gitlab.com/konradodwrot/user-ssh-util:
+    type: gitRepository
+    versionEnvVar: USER_SSH_UTIL_REF
   us-central1-docker.pkg.dev/staging-499418/ci/ci-linux:
     type: ociImage
     versionEnvVar: OCI_IMAGES_CI_LINUX_REF
