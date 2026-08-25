@@ -6,7 +6,6 @@ dependsOn:
   gitlab.com/konradodwrot/configs:
     - gitlab.com/konradodwrot/ai-harness/configs
   gitlab.com/konradodwrot/cross-repo/automation: []
-  gitlab.com/konradodwrot/cross-repo/infra/iac: []
   gitlab.com/konradodwrot/cross-repo/misc: []
   gitlab.com/konradodwrot/cross-repo/prose/assets: []
   gitlab.com/konradodwrot/cross-repo/prose/spec: []
@@ -26,8 +25,8 @@ dependsOn:
   gitlab.com/konradodwrot/go-modules/lib: []
   gitlab.com/konradodwrot/notes: []
   gitlab.com/konradodwrot/resume-md-pdf: []
+  gitlab.com/konradodwrot/user-ssh-util: []
   us-central1-docker.pkg.dev/staging-499418/ci/ci-linux:
-    - gitlab.com/konradodwrot/cross-repo/infra/iac
     - gitlab.com/konradodwrot/cross-repo/misc
     - gitlab.com/konradodwrot/cross-repo/prose/assets
     - gitlab.com/konradodwrot/cross-repo/prose/spec
