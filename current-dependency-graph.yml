@@ -1,10 +1,10 @@
 ##[>] 🤖
 dependsOn:
-  gitlab.com/konradodwrot/ai-harness/configs: []
+  gitlab.com/konradodwrot/ai-harness/ai-tools-configs: []
   gitlab.com/konradodwrot/che-packages:
     - {artifact: gitlab.com/konradodwrot/go-modules/che-packages-schema, version: v0.0.1-che-min-v0.0.96}
-  gitlab.com/konradodwrot/configs:
-    - {artifact: gitlab.com/konradodwrot/ai-harness/configs, version: v0.0.1}
+  gitlab.com/konradodwrot/tools-configs:
+    - {artifact: gitlab.com/konradodwrot/ai-harness/ai-tools-configs, version: v0.0.1}
   gitlab.com/konradodwrot/cross-repo/automation: []
   gitlab.com/konradodwrot/cross-repo/misc: []
   gitlab.com/konradodwrot/cross-repo/prose/assets: []
@@ -33,8 +33,8 @@ dependsOn:
     - {artifact: gitlab.com/konradodwrot/go-modules/che, version: che/v0.0.96}
   us-central1-docker.pkg.dev/staging-499418/ci/ci-linux-dind: []
   us-central1-docker.pkg.dev/staging-499418/ci/sandbox:
-    - {artifact: gitlab.com/konradodwrot/ai-harness/configs, version: v0.0.1}
-    - {artifact: gitlab.com/konradodwrot/configs, version: v0.0.18}
+    - {artifact: gitlab.com/konradodwrot/ai-harness/ai-tools-configs, version: v0.0.1}
+    - {artifact: gitlab.com/konradodwrot/tools-configs, version: v0.0.18}
     - {artifact: gitlab.com/konradodwrot/cross-repo/misc, version: v0.0.31}
     - {artifact: gitlab.com/konradodwrot/cross-repo/prose/assets, version: v0.0.65}
     - {artifact: gitlab.com/konradodwrot/cross-repo/prose/spec, version: v0.0.32}
