@@ -1,8 +1,8 @@
 ##[>] 🤖
 versions:
-  gitlab.com/konradodwrot/ai-harness/configs: v0.0.1
+  gitlab.com/konradodwrot/ai-harness/ai-tools-configs: v0.0.1
   gitlab.com/konradodwrot/che-packages: v0.0.18
-  gitlab.com/konradodwrot/configs: v0.0.20
+  gitlab.com/konradodwrot/tools-configs: v0.0.20
   gitlab.com/konradodwrot/cross-repo/automation: v0.0.30
   gitlab.com/konradodwrot/cross-repo/misc: v0.0.37
   gitlab.com/konradodwrot/cross-repo/prose/assets: v0.0.60

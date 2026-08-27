@@ -1,14 +1,14 @@
 ##[>] 🤖
 artifacts:
-  gitlab.com/konradodwrot/ai-harness/configs:
+  gitlab.com/konradodwrot/ai-harness/ai-tools-configs:
     type: gitRepository
-    versionEnvVar: AI_CONFIGS_REF
+    versionEnvVar: AI_TOOLS_CONFIGS_REF
   gitlab.com/konradodwrot/che-packages:
     type: gitRepository
     versionEnvVar: CHE_PACKAGES_REF
-  gitlab.com/konradodwrot/configs:
+  gitlab.com/konradodwrot/tools-configs:
     type: gitRepository
-    versionEnvVar: CONFIGS_REF
+    versionEnvVar: TOOLS_CONFIGS_REF
   gitlab.com/konradodwrot/cross-repo/automation:
     type: gitRepository
     versionEnvVar: AUTOMATION_REF
