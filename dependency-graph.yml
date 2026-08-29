@@ -3,8 +3,6 @@ dependsOn:
   gitlab.com/konradodwrot/ai-harness/ai-tools-configs: []
   gitlab.com/konradodwrot/che-packages:
     - gitlab.com/konradodwrot/go-modules/che-packages-schema
-  gitlab.com/konradodwrot/tools-configs:
-    - gitlab.com/konradodwrot/ai-harness/ai-tools-configs
   gitlab.com/konradodwrot/cross-repo/automation: []
   gitlab.com/konradodwrot/cross-repo/misc: []
   gitlab.com/konradodwrot/cross-repo/prose/assets: []
@@ -25,6 +23,8 @@ dependsOn:
   gitlab.com/konradodwrot/go-modules/lib: []
   gitlab.com/konradodwrot/notes: []
   gitlab.com/konradodwrot/resume-md-pdf: []
+  gitlab.com/konradodwrot/tools-configs:
+    - gitlab.com/konradodwrot/ai-harness/ai-tools-configs
   gitlab.com/konradodwrot/user-ssh-util: []
   us-central1-docker.pkg.dev/staging-499418/ci/ci-linux:
     - gitlab.com/konradodwrot/cross-repo/misc
@@ -34,9 +34,9 @@ dependsOn:
   us-central1-docker.pkg.dev/staging-499418/ci/ci-linux-dind: []
   us-central1-docker.pkg.dev/staging-499418/ci/sandbox:
     - gitlab.com/konradodwrot/ai-harness/ai-tools-configs
-    - gitlab.com/konradodwrot/tools-configs
     - gitlab.com/konradodwrot/cross-repo/misc
     - gitlab.com/konradodwrot/cross-repo/prose/assets
     - gitlab.com/konradodwrot/cross-repo/prose/spec
     - gitlab.com/konradodwrot/go-modules/che
+    - gitlab.com/konradodwrot/tools-configs
 ##[<] 🤖
