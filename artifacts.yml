@@ -6,9 +6,6 @@ artifacts:
   gitlab.com/konradodwrot/che-packages:
     type: gitRepository
     versionEnvVar: CHE_PACKAGES_REF
-  gitlab.com/konradodwrot/tools-configs:
-    type: gitRepository
-    versionEnvVar: TOOLS_CONFIGS_REF
   gitlab.com/konradodwrot/cross-repo/automation:
     type: gitRepository
     versionEnvVar: AUTOMATION_REF
@@ -45,6 +42,9 @@ artifacts:
   gitlab.com/konradodwrot/resume-md-pdf:
     type: gitRepository
     versionEnvVar: RESUME_MD_PDF_REF
+  gitlab.com/konradodwrot/tools-configs:
+    type: gitRepository
+    versionEnvVar: TOOLS_CONFIGS_REF
   gitlab.com/konradodwrot/user-ssh-util:
     type: gitRepository
     versionEnvVar: USER_SSH_UTIL_REF

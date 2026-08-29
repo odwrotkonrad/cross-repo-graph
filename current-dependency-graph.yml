@@ -3,15 +3,13 @@ dependsOn:
   gitlab.com/konradodwrot/ai-harness/ai-tools-configs: []
   gitlab.com/konradodwrot/che-packages:
     - {artifact: gitlab.com/konradodwrot/go-modules/che-packages-schema, version: v0.0.1-che-min-v0.0.96}
-  gitlab.com/konradodwrot/tools-configs:
-    - {artifact: gitlab.com/konradodwrot/ai-harness/ai-tools-configs, version: v0.0.1}
   gitlab.com/konradodwrot/cross-repo/automation: []
   gitlab.com/konradodwrot/cross-repo/misc: []
   gitlab.com/konradodwrot/cross-repo/prose/assets: []
   gitlab.com/konradodwrot/cross-repo/prose/spec: []
   gitlab.com/konradodwrot/go-modules/che:
     - {artifact: gitlab.com/konradodwrot/che-packages, version: 0.0.18}
-    - {artifact: gitlab.com/konradodwrot/cross-repo/prose/assets, version: v0.0.65}
+    - {artifact: gitlab.com/konradodwrot/cross-repo/prose/assets, version: v0.0.68}
     - {artifact: gitlab.com/konradodwrot/cross-repo/prose/spec, version: v0.0.32}
     - {artifact: gitlab.com/konradodwrot/go-modules/che-packages-schema, version: unknown}
     - {artifact: gitlab.com/konradodwrot/go-modules/che-schema, version: unknown}
@@ -25,18 +23,20 @@ dependsOn:
   gitlab.com/konradodwrot/go-modules/lib: []
   gitlab.com/konradodwrot/notes: []
   gitlab.com/konradodwrot/resume-md-pdf: []
+  gitlab.com/konradodwrot/tools-configs:
+    - {artifact: gitlab.com/konradodwrot/ai-harness/ai-tools-configs, version: v0.0.4}
   gitlab.com/konradodwrot/user-ssh-util: []
   us-central1-docker.pkg.dev/staging-499418/ci/ci-linux:
-    - {artifact: gitlab.com/konradodwrot/cross-repo/misc, version: v0.0.31}
-    - {artifact: gitlab.com/konradodwrot/cross-repo/prose/assets, version: v0.0.65}
+    - {artifact: gitlab.com/konradodwrot/cross-repo/misc, version: v0.0.40}
+    - {artifact: gitlab.com/konradodwrot/cross-repo/prose/assets, version: v0.0.69}
     - {artifact: gitlab.com/konradodwrot/cross-repo/prose/spec, version: v0.0.32}
     - {artifact: gitlab.com/konradodwrot/go-modules/che, version: che/v0.0.96}
   us-central1-docker.pkg.dev/staging-499418/ci/ci-linux-dind: []
   us-central1-docker.pkg.dev/staging-499418/ci/sandbox:
     - {artifact: gitlab.com/konradodwrot/ai-harness/ai-tools-configs, version: v0.0.1}
-    - {artifact: gitlab.com/konradodwrot/tools-configs, version: v0.0.18}
-    - {artifact: gitlab.com/konradodwrot/cross-repo/misc, version: v0.0.31}
-    - {artifact: gitlab.com/konradodwrot/cross-repo/prose/assets, version: v0.0.65}
+    - {artifact: gitlab.com/konradodwrot/cross-repo/misc, version: v0.0.42}
+    - {artifact: gitlab.com/konradodwrot/cross-repo/prose/assets, version: v0.0.69}
     - {artifact: gitlab.com/konradodwrot/cross-repo/prose/spec, version: v0.0.32}
     - {artifact: gitlab.com/konradodwrot/go-modules/che, version: che/v0.0.96}
+    - {artifact: gitlab.com/konradodwrot/tools-configs, version: v0.0.18}
 ##[<] 🤖
