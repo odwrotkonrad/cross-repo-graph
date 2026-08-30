@@ -2,9 +2,9 @@
 dependsOn:
   gitlab.com/konradodwrot/ai-harness/ai-tools-configs: []
   gitlab.com/konradodwrot/centralized/assets/generic:
-    - {artifact: gitlab.com/konradodwrot/centralized/assets/prose/ai, version: v0.0.1}
-    - {artifact: gitlab.com/konradodwrot/centralized/assets/prose/common, version: v0.0.1}
-    - {artifact: gitlab.com/konradodwrot/centralized/assets/prose/human, version: v0.0.1}
+    - {artifact: gitlab.com/konradodwrot/centralized/assets/prose/ai, version: v0.0.2}
+    - {artifact: gitlab.com/konradodwrot/centralized/assets/prose/common, version: v0.0.2}
+    - {artifact: gitlab.com/konradodwrot/centralized/assets/prose/human, version: v0.0.2}
   gitlab.com/konradodwrot/centralized/assets/prose/ai: []
   gitlab.com/konradodwrot/centralized/assets/prose/common: []
   gitlab.com/konradodwrot/centralized/assets/prose/human: []
