@@ -8,7 +8,9 @@ specsInclude:
       repo: cross-repo/graph
 
 variablesDefinitions:
-  all: {scope: recursiveSpecsAndProfiles, required: true}
+  all:
+    scope: recursiveSpecsAndProfiles
+    required: true
   specVariablesDefinitions:
     CENTRALIZED_ASSETS_GENERIC_REF: null
     CENTRALIZED_ASSETS_PROSE_AI_REF: null
