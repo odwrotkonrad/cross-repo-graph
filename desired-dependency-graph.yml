@@ -18,7 +18,7 @@ dependsOn:
     - {artifact: gitlab.com/konradodwrot/che-packages, version: v0.0.21}
     - {artifact: gitlab.com/konradodwrot/cross-repo/prose/spec, version: v0.0.32}
     - {artifact: gitlab.com/konradodwrot/go-modules/che-packages-schema, version: v0.0.1-che-min-v0.0.96}
-    - {artifact: gitlab.com/konradodwrot/go-modules/che-schema, version: v0.0.1-che-min-v0.0.96}
+    - {artifact: gitlab.com/konradodwrot/go-modules/che-schema, version: v0.0.6-che-min-v0.0.110}
     - {artifact: gitlab.com/konradodwrot/go-modules/lib, version: lib/v0.0.15}
   gitlab.com/konradodwrot/go-modules/che-packages-schema: []
   gitlab.com/konradodwrot/go-modules/che-schema: []
@@ -37,7 +37,7 @@ dependsOn:
     - {artifact: gitlab.com/konradodwrot/go-modules/che, version: che/v0.0.96}
   us-central1-docker.pkg.dev/staging-499418/ci/ci-linux-dind: []
   us-central1-docker.pkg.dev/staging-499418/ci/sandbox:
-    - {artifact: gitlab.com/konradodwrot/ai-harness/ai-tools-configs, version: v0.0.5}
+    - {artifact: gitlab.com/konradodwrot/ai-harness/ai-tools-configs, version: v0.0.7}
     - {artifact: gitlab.com/konradodwrot/cross-repo/prose/spec, version: v0.0.32}
     - {artifact: gitlab.com/konradodwrot/go-modules/che, version: che/v0.0.96}
     - {artifact: gitlab.com/konradodwrot/tools-configs, version: v0.0.18}
