@@ -7,9 +7,6 @@ versions:
   gitlab.com/konradodwrot/centralized/assets/prose/human: v0.0.1
   gitlab.com/konradodwrot/che-packages: v0.0.21
   gitlab.com/konradodwrot/cross-repo/automation: v0.0.30
-  gitlab.com/konradodwrot/cross-repo/misc: v0.0.44
-  gitlab.com/konradodwrot/cross-repo/prose/assets: v0.0.71
-  gitlab.com/konradodwrot/cross-repo/prose/spec: v0.0.37
   gitlab.com/konradodwrot/go-modules/che: che/v0.0.95
   gitlab.com/konradodwrot/go-modules/che-packages-schema: v0.0.1-che-min-v0.0.96
   gitlab.com/konradodwrot/go-modules/che-schema: v0.0.1-che-min-v0.0.96

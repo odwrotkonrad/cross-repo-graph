@@ -21,15 +21,6 @@ artifacts:
   gitlab.com/konradodwrot/cross-repo/automation:
     type: gitRepository
     versionEnvVar: AUTOMATION_REF
-  gitlab.com/konradodwrot/cross-repo/misc:
-    type: gitRepository
-    versionEnvVar: MISC_REF
-  gitlab.com/konradodwrot/cross-repo/prose/assets:
-    type: gitRepository
-    versionEnvVar: PROSE_ASSETS_REF
-  gitlab.com/konradodwrot/cross-repo/prose/spec:
-    type: gitRepository
-    versionEnvVar: PROSE_SPEC_REF
   gitlab.com/konradodwrot/go-modules/che:
     type: goModule
     versionEnvVar: GO_MODULES_CHE_REF
