@@ -13,7 +13,7 @@ dependsOn:
   gitlab.com/konradodwrot/cross-repo/automation: []
   gitlab.com/konradodwrot/go-modules/che:
     - {artifact: gitlab.com/konradodwrot/che-packages, version: v0.0.22}
-    - {artifact: gitlab.com/konradodwrot/go-modules/che-packages-schema, version: v0.0.1-che-min-v0.0.96}
+    - {artifact: gitlab.com/konradodwrot/go-modules/che-packages-schema, version: che/v0.0.123}
     - {artifact: gitlab.com/konradodwrot/go-modules/che-schema, version: che/v0.0.123}
     - {artifact: gitlab.com/konradodwrot/go-modules/lib, version: che/v0.0.123}
   gitlab.com/konradodwrot/go-modules/che-packages-schema: []
