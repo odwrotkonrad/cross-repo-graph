@@ -10,9 +10,9 @@ specsInclude:
 variablesDefinitions:
   all: {scope: recursiveSpecsAndProfiles, required: true}
   specVariablesDefinitions:
-    CENTRALIZED_ASSETS_GENERIC_REF: {}
-    CENTRALIZED_ASSETS_PROSE_AI_REF: {}
-    CENTRALIZED_ASSETS_PROSE_COMMON_REF: {}
-    CENTRALIZED_ASSETS_PROSE_HUMAN_REF: {}
-    CHE_SCHEMA_REF: {}
+    CENTRALIZED_ASSETS_GENERIC_REF: null
+    CENTRALIZED_ASSETS_PROSE_AI_REF: null
+    CENTRALIZED_ASSETS_PROSE_COMMON_REF: null
+    CENTRALIZED_ASSETS_PROSE_HUMAN_REF: null
+    CHE_SCHEMA_REF: null
 ##[<] 🤖🤖
