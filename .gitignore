@@ -1,5 +1,4 @@
-!.che/
-!.repo/
+# [>] generic
+# [<] generic
 /shared/
-/lefthook.yml
 /.che/cheVariables.local.yml
