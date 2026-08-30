@@ -4,16 +4,23 @@
 include:
   - project: konradodwrot/centralized/assets/generic
     ref: $GRP_KO_VAR_CENTRALIZED_ASSETS_GENERIC_REF
-    file: consumer-repo-config/ci/templates/EmitEvents.gitlab-ci.yml
+    file:
+      - consumer-repo-config/ci/templates/EmitEvents.gitlab-ci.yml
+      - consumer-repo-config/files-generation/templates/FilesTrackedVerify.gitlab-ci.yml
+      - consumer-repo-config/precommit-lefthook/templates/PrecommitChanged.gitlab-ci.yml
+      - consumer-repo-config/precommit-lefthook/templates/PrecommitAll.gitlab-ci.yml
 
 #[why] default branch only: the sole job here announces merged content, so an MR pipeline would be
 #   empty and GitLab refuses to create one. "Pipeline creation failed" on an MR is expected for this
 #   repo, not a misconfiguration: everything that validates these files runs in cross-repo/automation
 workflow:
   rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
-stages: [notify]
+stages:
+  - validate
+  - notify
 
 default:
   tags:
